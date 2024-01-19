@@ -9,4 +9,4 @@ later:
  - add more resume categories
  - relative file structure (currently explicitly defined)
 
-note that to use the bash script, give it executable permissions (chmod -x <path>)
+note that to use the bash script, give it executable permissions (chmod -x *path*)

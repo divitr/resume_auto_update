@@ -1,0 +1,219 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Divit Rawal} \\ \vspace{1pt}
+    \small (425)-309-0699 $|$ \href{mailto:divit.rawal@gmail.com}{\underline{divit.rawal@gmail.com}} $|$ 
+    \href{https://www.divitrawal.com}{\underline{divitrawal.com}} $|$
+    \href{https://www.github.com/divitr/}{\underline{github.com/divitr}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of California, Berkeley}{Aug. 2023 -- Present}
+      {Physics and Mathematics, Minor in Electrical Engineering \& Computer Science}{Berkeley, CA}
+      \resumeItemListStart
+        \resumeItem{2023 National Merit Scholarship Finalist (awarded to \textless 1\% of students)}
+        \resumeItem{Relevant Coursework: Data Structures, Computer Programs, Mathematical Physics, Mechanics and Relativity, Designing Information Devices and Systems, Hands-On PCB Engineering}
+      \resumeItemListEnd
+    \resumeSubheading
+      {IBM Professional Certification in Machine Learning}{Jan. 2023 - Jun. 2023}
+      {Certificate}{Remote}
+      \resumeItemListStart
+        \resumeItem{Studied the fundamentals of machine learning including regression, clustering, classification, deep learning, and reinforcement learning}
+        \resumeItem{Completed capstone project using machine learning to build recommender systems}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+  
+  \resumeSubheading
+      {Amazon}{Aug. 2023 -- Present}
+      {OpenSearch Contributor}{Remote}
+      \resumeItemListStart
+        \resumeItem{Selected as member of 2023 OpenSearch Contributor Initiative (\textless 4\% acceptance rate)}
+        \resumeItem{Contribute to the \href{https://github.com/opensearch-project/ml-commons/}{\underline{opensearch-project/ml-commons}} GitHub repository by developing machine learning algorithms and plugins in Java}
+        \resumeItem{Collaborate with undergraduate students, graduate students, and industry professionals across the globe under the mentorship of Machine Learning Engineers at Amazon}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Department of Physics \& Astronomy, UC Irvine}{Feb. 2022 -- Jul. 2023}
+      {Researcher}{Irvine, CA}
+      \resumeItemListStart
+        \resumeItem{Developed, trained, and tested TensorFlow/Keras deep learning models to address data scarcity issues in high momentum collision analysis with \textgreater 90\% accuracy}
+        \resumeItem{Simulated particle collisions using MadGraph, Pythia8, Delphes, and ROOT and wrote reconstruction algorithms in C++ and Python to predict particle mass with \textless 2\% error}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+          {\textbf{Amazon OpenSearch} $|$ \emph{Java, Git, Machine Learning, Mockito}}{Aug. 2023 -- Present}
+          \resumeItemListStart
+            \resumeItem{Selected as member of 2023 OpenSearch Contributor Initiative (\textless 4\% acceptance rate)}
+            \resumeItem{Contribute to \href{https://github.com/opensearch-project/ml-commons/}{\underline{opensearch-project/ml-commons}} GitHub repository by developing machine learning algorithms and plugins in Java}
+            \resumeItem{Collaborate with undergraduate students, graduate students, and industry professionals across the globe under the mentorship of machine learning engineers at Amazon}
+          \resumeItemListEnd
+    
+     \resumeProjectHeading
+          {\textbf{Statistical Mechanics of Neural Networks} $|$ \emph{Markov Chains, Monte Carlo Estimation}}{Aug. 2023 -- Present}
+          \resumeItemListStart
+            \resumeItem{Working with a fourth-year graduate student as a part of the UC Berkeley Physics Directed Reading Program}
+            \resumeItem{Studied statistical and thermal physics and their application to neural networks and machine learning through Markov Chain Monte Carlo Sampling and simulated annealing}
+          \resumeItemListEnd
+    
+      \resumeProjectHeading
+          {\textbf{Research-Engine} $|$ \emph{Python, Flask, Svelte, Web Scraping, Natural Language Processing}}{Nov. 2022 -- Apr. 2023}
+          \resumeItemListStart
+            \resumeItem{Led a team of 3 to develop Research-Engine, a tool to help users efficiently find and access relevant information and research about a topic}
+            \resumeItem{Developed a full-stack web application hosted on an AWS EC2 instance using Flask and Svelte}
+            \resumeItem{Implemented web scraping and natural language processing to obtain and summarize information from Google}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, C++, Java, HTML/CSS, JavaScript, SQL} \\
+     \textbf{Frameworks}{: ROOT, Flutter, Flask, Tensorflow/Keras, PyTorch, Mockito} \\
+     \textbf{Libraries}{: Pandas, NumPy, Matplotlib, SciKit-Learn, BeautifulSoup}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}

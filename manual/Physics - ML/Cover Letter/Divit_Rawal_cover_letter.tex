@@ -1,0 +1,96 @@
+%-------------------------
+% Cover Letter in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------------------------
+%%%%%%  COVER LETTER STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Divit Rawal} \\ \vspace{1pt}
+    \small (425)-309-0699 $|$ \href{mailto:divit.rawal@gmail.com}{\underline{divit.rawal@gmail.com}} $|$ 
+    \href{https://www.divitrawal.com}{\underline{divitrawal.com}} $|$
+    \href{https://www.github.com/divitr/}{\underline{github.com/divitr}}
+\end{center}
+
+\vspace{10mm}
+
+Dear Berkeley Information Technology Team,\\
+\vspace{5mm}
+I am writing with great enthusiasm to express my interest in the Student Assistant opportunity. As a freshman at UC Berkeley pursuing a dual degree in Physics and Mathematics, I possess a deep passion for research and a strong foundation in data and computing skills, making me a perfect fit for your diverse team.\\
+\vspace{5mm}
+While my background leans towards computational physics, I'm eager to contribute in any way possible, learning alongside researchers and IT experts from across campus. My previous research experience, technical skills, and collaborative spirit align perfectly with the internship's flexible nature and diverse responsibilities.\\
+\vspace{5mm}
+My research experience with Dr. Daniel Whiteson's lab at UC Irvine instilled in me a deep understanding of analyzing complex data and developing machine learning solutions to address data scarcity challenges. Collaborating with the postdoctoral researchers fostered my data analysis skills, especially in extracting meaningful insights from intricate datasets and cleaning noisy data for accurate trend extraction. This experience also provided invaluable insights into research methodologies, which I'm eager to apply in a larger context.\\
+\vspace{5mm}
+Similarly, contributing to the OpenSearch Project at Amazon expanded my technical expertise. Under the guidance of experienced data engineers, I honed my skills in writing unit tests and developing impactful machine learning algorithms that serve millions of users worldwide. This hands-on experience not only solidified my theoretical foundation in data analysis and machine learning algorithms (gained through the IBM Professional Certification), but also allowed me to put it into practice with real-world data and tools like Pandas, NumPy, and SciKit-Learn.\\
+\vspace{5mm}
+My theoretical foundation in data analysis and machine learning algorithms was further solidified by the IBM Professional Certification in Machine Learning. This comprehensive program provided me with in-depth knowledge of various models and techniques, along with practical experience through real-world datasets and tools like Pandas, NumPy, and SciKit-Learn. Applying these learnings, I built a deep learning-based recommender system capstone project, gaining valuable insights into practical implementation and algorithm optimization. This certification not only validated my understanding of fundamental concepts but also equipped me with the confidence to tackle diverse data challenges effectively.\\
+\vspace{5mm}
+I am highly motivated and eager to learn, ready to apply my skills and enthusiasm to tackle any tasks assigned. My flexible schedule allows me to commit around 10 hours/week during the academic year, with the potential for a full-time summer position to contribute to larger projects.\\
+\vspace{5mm}
+Thank you for considering my application. I am excited about the possibility of joining your team and contributing to the vibrant research community at Berkeley. I welcome the opportunity to further discuss my qualifications and learn more about your specific needs.\\
+\vspace{5mm}
+Sincerely,\\
+Divit Rawal
+
+\end{document}

@@ -1,0 +1,163 @@
+{
+    "education" : [
+        {
+            "type" : "university",
+            "category" : ["cs"],
+            "info" : {
+                "name" : "University of California, Berkeley",
+                "dates" : "Aug. 2023 -- Present",
+                "location" : "Berkeley, CA",
+                "major" : "Physics, Intended Computer Science",
+                "bullets" : [
+                    "Relevant Coursework: Data Structures, Advanced Programming in R, Computer Programs, Communication Networks,  Information Devices and Systems, PCB Engineering",
+                    "Hands-On PCB Engineering Course Staff (Spring 2024)",
+                    "2023 National Merit Scholarship Finalist (awarded to \\textless 1\\% of students)"
+                ]
+            }
+        },
+        {
+            "type" : "university",
+            "category" : ["master", "physics", "tutoring"],
+            "info" : {
+                "name" : "University of California, Berkeley",
+                "dates" : "Aug. 2023 -- Present",
+                "location" : "Berkeley, CA",
+                "major" : "Physics and Mathematics, Electrical Engineering \\& Computer Science (Minor)",
+                "bullets" : [
+                    "Relevant Coursework: Data Structures, Advanced Programming in R, Computer Programs, Communication Networks,  Information Devices and Systems, PCB Engineering",
+                    "Hands-On PCB Engineering Course Staff (Spring 2024)",
+                    "2023 National Merit Scholarship Finalist (awarded to \\textless 1\\% of students)"
+                ]
+            }
+        },
+        {
+            "type" : "certification",
+            "category" : ["master", "cs", "physics", "tutoring"],
+            "info" : {
+                "name" : "IBM Professional Certification in Machine Learning",
+                "dates" : "Jan. 2023 -- Jun. 2023",
+                "location" : "Remote",
+                "major" : "Certification",
+                "bullets" : [
+                    "Studied the fundamentals of machine learning including regression, clustering, classification, deep learning, and reinforcement learning",
+                    "Completed capstone project using machine learning to build recommender systems"
+                ]
+            }
+        }
+    ],
+    "experience" : [
+        {
+            "category" : ["master", "tutoring"],
+            "info" : {
+                "company" : "Kairos Academics",
+                "dates" : "Apr. 2023 -- Present",
+                "location" : "Remote",
+                "title" : "Tutor",
+                "bullets" : [
+                    "Provide one-on-one tutoring to high school students in math and science",
+                    "Develop personalized lesson plans and study strategies to address individual student needs and learning styles",
+                    "Monitor student progress and adapt teaching methods to ensure comprehension and academic growth"
+                ]
+            }
+        },
+        {
+            "category" : ["master", "cs", "physics", "tutoring"],
+            "info" : {
+                "company" : "Amazon",
+                "dates" : "Aug. 2023 -- Dec. 2023",
+                "location" : "Remote",
+                "title" : "OpenSearch Contributor",
+                "bullets" : [
+                    "Selected as member of 2023 OpenSearch Contributor Initiative (\\textless 4\\% acceptance rate)",
+                    "Contributed to the \\href{https://github.com/opensearch-project/ml-commons/}{\\underline{opensearch-project/ml-commons}} GitHub repository by developing machine learning algorithms, unit tests, and plugins in Java",
+                    "Collaborated with undergraduate students, graduate students, and industry professionals across the globe under the mentorship of Machine Learning Engineers at Amazon"
+                ]
+            }
+        },
+        {
+            "category" : ["master", "cs", "physics", "tutoring"],
+            "info" : {
+                "company" : "UC Irvine, Department of Physics \\& Astronomy",
+                "dates" : "Feb. 2022 -- Jul. 2023",
+                "location" : "Irvine, CA",
+                "title" : "Researcher",
+                "bullets" : [
+                    "Developed, trained, and tested TensorFlow/Keras deep learning models to address data scarcity issues in high momentum collision analysis with \\textgreater 90\\% accuracy",
+                    "Simulated particle collisions using MadGraph, Pythia8, Delphes, and ROOT and wrote reconstruction algorithms in C++ and Python to predict particle mass with \\textless 2\\% error"
+                ]
+            }
+        },
+        {
+            "category" : ["master", "tutoring"],
+            "info" : {
+                "company" : "SimpleMath Foundation",
+                "dates" : "Aug. 2021 -- Jun. 2023",
+                "location" : "Irvine, CA",
+                "title" : "Head of Tutoring",
+                "bullets" : [
+                    "Led a team of 11 tutors to provide academic support to children from underserved communities, helping improve their understanding and confidence in math",
+                    "Personally tutored 2 students each week, tailoring instruction to meet individual needs and learning styles",
+                    "Created and published a series of engaging and informative YouTube videos on key math concepts"
+                ]
+            }
+        }
+    ],
+    "projects" : [
+        {
+            "category" : ["master", "cs", "physics"],
+            "info" : {
+                "name" : "Physics Directed Reading Program",
+                "skills" : "Statistical Modeling, Machine Learning",
+                "dates" : "Aug. 2023 -- Dec. 2023",
+                "bullets" : [
+                    "Studied applications of statistical and thermal physics to machine learning",
+                    "Investigated statistical and machine learning methods used in physics, with a focus on Markov Chain Monte Carlo simulations",
+                    "Delivered engaging presentation about the intersection of physics and machine learning to undergraduate and graduate physics students"
+                ]
+            }
+        },
+        {
+            "category" : ["master", "cs", "physics"],
+            "info" : {
+                "name" : "3-D Filament Fuser",
+                "skills" : "PCB Design, KiCad, Circuit Design",
+                "dates" : "Sep. 2023 -- Dec. 2023",
+                "bullets" : [
+                    "Conceptualized and designed device that automatically joins 3-D filament together, allowing users to change filament color without interrupting their print",
+                    "Designed schematic, layout, and custom-printed circuit board in KiCad",
+                    "Presented final product to Apple engineers and UC Berkeley EECS faculty"
+                ]
+            }
+        },
+        {
+            "category" : ["master", "cs", "physics"],
+            "info" : {
+                "name" : "Research-Engine",
+                "skills" : "Python, Flask, Svelte, Web Scraping, Natural Language Processing",
+                "dates" : "Nov. 2022 -- Apr. 2023",
+                "bullets" : [
+                    "Led a team of 3 to develop Research-Engine, a tool to help users efficiently find and access relevant information and research about a topic",
+                    "Developed a full-stack web application hosted on an AWS EC2 instance using Flask and Svelte",
+                    "Implemented web scraping and natural language processing to obtain and summarize information from Google"
+                ]
+            }
+        },
+        {
+            "category" : ["master", "cs"],
+            "info" : {
+                "name" : "Watersort Solver",
+                "skills" : "Flutter SDK, Dart, Java",
+                "dates" : "Jul. 2022 -- Nov. 2022",
+                "bullets" : [
+                    "Designed and developed Watersort Solver in Java and Flutter to quickly and accurately solve any watersort brainteaser",
+                    "Published to Google Play Store"
+                ]
+            }
+        }
+    ],
+    "technical skills" : {
+        "languages" : "Python, R, C++, Java, HTML/CSS, JavaScript, SQL",
+        "frameworks" : "ROOT, Flutter, Flask, TensorFlow/Keras, PyTorch, Mockito",
+        "libraries" : "Pandas, NumPy, Matplotlib, SciKit-Learn, BeautifulSoup"
+    }
+}

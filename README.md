@@ -7,3 +7,6 @@ bash script checks for updates, if json is updated, rewrites and compiles all ve
 later:
  - implement automatic run on login (currently running with bash command in a terminal window (perpetually kept open))
  - add more resume categories
+ - relative file structure (currently explicitly defined)
+
+note that to use the bash script, give it executable permissions (chmod -x <path>)

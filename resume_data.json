@@ -104,7 +104,7 @@
     ],
     "projects" : [
         {
-            "category" : ["master", "cs", "physics"],
+            "category" : ["master", "physics"],
             "info" : {
                 "name" : "Physics Directed Reading Program",
                 "skills" : "Statistical Modeling, Machine Learning",

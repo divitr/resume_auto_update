@@ -2,8 +2,8 @@ This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded forma
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/Users/divitrawal/Desktop/resume/master/resume_master.tex
-(/Users/divitrawal/Desktop/resume/master/resume_master.tex
+**/Users/divitrawal/Desktop/resume/ml/resume_ml.tex
+(/Users/divitrawal/Desktop/resume/ml/resume_ml.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22>
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
@@ -285,8 +285,8 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count275
 \l__pdf_internal_box=\box55
 )
-(/Users/divitrawal/Desktop/resume/master//resume_master.aux)
-\openout1 = `resume_master.aux'.
+(/Users/divitrawal/Desktop/resume/ml//resume_ml.aux)
+\openout1 = `resume_ml.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 107.
 LaTeX Font Info:    ... okay on input line 107.
@@ -322,10 +322,10 @@ LaTeX Font Info:    ... okay on input line 107.
 \everyMPtoPDFconversion=\toks25
 )
 Package hyperref Info: Link coloring OFF on input line 107.
- (/Users/divitrawal/Desktop/resume/master//resume_master.out)
-(/Users/divitrawal/Desktop/resume/master//resume_master.out)
+ (/Users/divitrawal/Desktop/resume/ml//resume_ml.out)
+(/Users/divitrawal/Desktop/resume/ml//resume_ml.out)
 \@outlinefile=\write3
-\openout3 = `resume_master.out'.
+\openout3 = `resume_ml.out'.
 
 
 
@@ -364,26 +364,21 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 4.08003pt, for example:
-(fancyhdr)                \setlength{\footskip}{4.08003pt}.
-
-[2] (/Users/divitrawal/Desktop/resume/master//resume_master.aux)
+(/Users/divitrawal/Desktop/resume/ml//resume_ml.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `resume_master.out' has not changed.
+Package rerunfilecheck Info: File `resume_ml.out' has not changed.
 (rerunfilecheck)             Checksum: 8178769A591DAE54593BE5DC5893BD68;390.
  ) 
 Here is how much of TeX's memory you used:
- 10353 strings out of 476025
- 166016 string characters out of 5790018
- 1878388 words of memory out of 5000000
+ 10352 strings out of 476025
+ 165886 string characters out of 5790018
+ 1880388 words of memory out of 5000000
  30673 multiletter control sequences out of 15000+600000
  517879 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,76p,311b,635s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,76p,303b,451s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -392,11 +387,11 @@ Here is how much of TeX's memory you used:
 sr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
 r/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/
 local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on /Users/divitrawal/Desktop/resume/master//resume_master.pdf (2
- pages, 114548 bytes).
+Output written on /Users/divitrawal/Desktop/resume/ml//resume_ml.pdf (1 page, 1
+10322 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
+ 74 PDF objects out of 1000 (max. 8388607)
+ 54 compressed objects within 1 object stream
+ 6 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

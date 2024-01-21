@@ -2,7 +2,7 @@
     "education" : [
         {
             "type" : "university",
-            "category" : ["cs"],
+            "category" : ["cs", "ml"],
             "info" : {
                 "name" : "University of California, Berkeley",
                 "dates" : "Aug. 2023 -- Present",
@@ -32,7 +32,7 @@
         },
         {
             "type" : "certification",
-            "category" : ["master", "cs", "physics", "tutoring"],
+            "category" : ["master", "cs", "physics", "tutoring", "ml"],
             "info" : {
                 "name" : "IBM Professional Certification in Machine Learning",
                 "dates" : "Jan. 2023 -- Jun. 2023",
@@ -61,7 +61,7 @@
             }
         },
         {
-            "category" : ["master", "cs", "physics", "tutoring"],
+            "category" : ["master", "cs", "physics", "tutoring", "ml"],
             "info" : {
                 "company" : "Amazon",
                 "dates" : "Aug. 2023 -- Dec. 2023",
@@ -75,7 +75,7 @@
             }
         },
         {
-            "category" : ["master", "cs", "physics", "tutoring"],
+            "category" : ["master", "cs", "physics", "tutoring", "ml"],
             "info" : {
                 "company" : "UC Irvine, Department of Physics \\& Astronomy",
                 "dates" : "Feb. 2022 -- Jul. 2023",
@@ -104,7 +104,7 @@
     ],
     "projects" : [
         {
-            "category" : ["master", "physics"],
+            "category" : ["master", "physics", "ml"],
             "info" : {
                 "name" : "Physics Directed Reading Program",
                 "skills" : "Statistical Modeling, Machine Learning",
@@ -130,7 +130,7 @@
             }
         },
         {
-            "category" : ["master", "cs", "physics"],
+            "category" : ["master", "cs", "physics", "ml"],
             "info" : {
                 "name" : "Research-Engine",
                 "skills" : "Python, Flask, Svelte, Web Scraping, Natural Language Processing",
@@ -143,7 +143,7 @@
             }
         },
         {
-            "category" : ["master", "cs"],
+            "category" : ["master", "cs", "ml"],
             "info" : {
                 "name" : "Watersort Solver",
                 "skills" : "Flutter SDK, Dart, Java",

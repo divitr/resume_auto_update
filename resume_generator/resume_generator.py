@@ -185,7 +185,7 @@ def convert_to_latex(resume_data, resume_type):
 
     return latex_output
 
-resume_types = ["master", "physics", "cs", "tutoring", "test"]
+resume_types = ["master", "physics", "cs", "tutoring", "ml"]
 
 with open("/Users/divitrawal/Desktop/resume/resume_data.json", "r") as file:
         resume_data = json.load(file)

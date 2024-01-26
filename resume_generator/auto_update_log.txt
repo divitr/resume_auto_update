@@ -168,7 +168,27 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 4.08003pt, for example:
 (fancyhdr)                \setlength{\footskip}{4.08003pt}.
 
-[1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.mapTraceback (most recent call last):
+  File "/Users/divitrawal/Desktop/resume/resume_generator/resume_generator.py", line 198, in <module>
+    subprocess.call(["pdflatex", f"-output-directory=/Users/divitrawal/Desktop/resume/{resume_type}/", f"/Users/divitrawal/Desktop/resume/{resume_type}/resume_{resume_type}.tex"])
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 349, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'pdflatex'
+Traceback (most recent call last):
+  File "/Users/divitrawal/Desktop/resume/resume_generator/resume_generator.py", line 198, in <module>
+    subprocess.call(["pdflatex", f"-output-directory=/Users/divitrawal/Desktop/resume/{resume_type}/", f"/Users/divitrawal/Desktop/resume/{resume_type}/resume_{resume_type}.tex"])
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 349, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'pdflatex'
+}]
 (/Users/divitrawal/Desktop/resume/physics//resume_physics.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -187,6 +207,16 @@ Transcript written on /Users/divitrawal/Desktop/resume/physics//resume_physics.
 log.
 This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex)
  restricted \write18 enabled.
+Traceback (most recent call last):
+  File "/Users/divitrawal/Desktop/resume/resume_generator/resume_generator.py", line 198, in <module>
+    subprocess.call(["pdflatex", f"-output-directory=/Users/divitrawal/Desktop/resume/{resume_type}/", f"/Users/divitrawal/Desktop/resume/{resume_type}/resume_{resume_type}.tex"])
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 349, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'pdflatex'
 entering extended mode
 (/Users/divitrawal/Desktop/resume/cs/resume_cs.tex
 LaTeX2e <2022-11-01> patch level 1
@@ -196,7 +226,17 @@ Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/size11.clo))
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/latexsym.sty)
 (/usr/local/texlive/2023/texmf-dist/tex/latex/preprint/fullpage.sty)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/titlesec/titlesec.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/titlesec/titlesec.styTraceback (most recent call last):
+  File "/Users/divitrawal/Desktop/resume/resume_generator/resume_generator.py", line 198, in <module>
+    subprocess.call(["pdflatex", f"-output-directory=/Users/divitrawal/Desktop/resume/{resume_type}/", f"/Users/divitrawal/Desktop/resume/{resume_type}/resume_{resume_type}.tex"])
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 349, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'pdflatex'
+)
 (/usr/local/texlive/2023/texmf-dist/tex/latex/marvosym/marvosym.sty)
 (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/color.sty
 (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg)
@@ -230,13 +270,33 @@ ty (/usr/local/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
 (/usr/local/texlive/2023/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
 (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/hpdftex.def
-(/usr/local/texlive/2023/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/atveryend-ltx.sty)Traceback (most recent call last):
+  File "/Users/divitrawal/Desktop/resume/resume_generator/resume_generator.py", line 198, in <module>
+    subprocess.call(["pdflatex", f"-output-directory=/Users/divitrawal/Desktop/resume/{resume_type}/", f"/Users/divitrawal/Desktop/resume/{resume_type}/resume_{resume_type}.tex"])
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 349, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'pdflatex'
+
 (/usr/local/texlive/2023/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 
 (/usr/local/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 ))) (/usr/local/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
 (/usr/local/texlive/2023/texmf-dist/tex/generic/babel/babel.sty
-(/usr/local/texlive/2023/texmf-dist/tex/generic/babel/txtbabel.def)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/babel/txtbabel.def)Traceback (most recent call last):
+  File "/Users/divitrawal/Desktop/resume/resume_generator/resume_generator.py", line 198, in <module>
+    subprocess.call(["pdflatex", f"-output-directory=/Users/divitrawal/Desktop/resume/{resume_type}/", f"/Users/divitrawal/Desktop/resume/{resume_type}/resume_{resume_type}.tex"])
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 349, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'pdflatex'
+
 (/usr/local/texlive/2023/texmf-dist/tex/generic/babel-english/english.ldf))
 (/usr/local/texlive/2023/texmf-dist/tex/generic/babel/locale/en/babel-english.t
 ex) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/tabularx.sty
@@ -259,7 +319,17 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 4.08003pt, for example:
 (fancyhdr)                \setlength{\footskip}{4.08003pt}.
 
-[1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.mapTraceback (most recent call last):
+  File "/Users/divitrawal/Desktop/resume/resume_generator/resume_generator.py", line 198, in <module>
+    subprocess.call(["pdflatex", f"-output-directory=/Users/divitrawal/Desktop/resume/{resume_type}/", f"/Users/divitrawal/Desktop/resume/{resume_type}/resume_{resume_type}.tex"])
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 349, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'pdflatex'
+}]
 (/Users/divitrawal/Desktop/resume/cs//resume_cs.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -275,8 +345,28 @@ local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
 Output written on /Users/divitrawal/Desktop/resume/cs//resume_cs.pdf (1 page, 1
 10324 bytes).
 Transcript written on /Users/divitrawal/Desktop/resume/cs//resume_cs.log.
+Traceback (most recent call last):
+  File "/Users/divitrawal/Desktop/resume/resume_generator/resume_generator.py", line 198, in <module>
+    subprocess.call(["pdflatex", f"-output-directory=/Users/divitrawal/Desktop/resume/{resume_type}/", f"/Users/divitrawal/Desktop/resume/{resume_type}/resume_{resume_type}.tex"])
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 349, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'pdflatex'
 This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex)
  restricted \write18 enabled.
+Traceback (most recent call last):
+  File "/Users/divitrawal/Desktop/resume/resume_generator/resume_generator.py", line 198, in <module>
+    subprocess.call(["pdflatex", f"-output-directory=/Users/divitrawal/Desktop/resume/{resume_type}/", f"/Users/divitrawal/Desktop/resume/{resume_type}/resume_{resume_type}.tex"])
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 349, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'pdflatex'
 entering extended mode
 (/Users/divitrawal/Desktop/resume/tutoring/resume_tutoring.tex
 LaTeX2e <2022-11-01> patch level 1
@@ -301,7 +391,17 @@ Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 (/usr/local/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
 (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)Traceback (most recent call last):
+  File "/Users/divitrawal/Desktop/resume/resume_generator/resume_generator.py", line 198, in <module>
+    subprocess.call(["pdflatex", f"-output-directory=/Users/divitrawal/Desktop/resume/{resume_type}/", f"/Users/divitrawal/Desktop/resume/{resume_type}/resume_{resume_type}.tex"])
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 349, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'pdflatex'
+
 (/usr/local/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
 (/usr/local/texlive/2023/texmf-dist/tex/latex/hycolor/hycolor.sty)

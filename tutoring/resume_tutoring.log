@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.3)  29 JAN 2024 14:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.3)  2 FEB 2024 16:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -374,7 +374,7 @@ Package rerunfilecheck Info: File `resume_tutoring.out' has not changed.
 Here is how much of TeX's memory you used:
  10352 strings out of 476025
  166072 string characters out of 5790018
- 1878388 words of memory out of 5000000
+ 1877388 words of memory out of 5000000
  30673 multiletter control sequences out of 15000+600000
  517879 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -388,7 +388,7 @@ sr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
 r/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/
 local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
 Output written on /Users/divitrawal/Desktop/resume/tutoring//resume_tutoring.pd
-f (1 page, 109004 bytes).
+f (1 page, 109013 bytes).
 PDF statistics:
  74 PDF objects out of 1000 (max. 8388607)
  54 compressed objects within 1 object stream

@@ -68,7 +68,7 @@
                 "location" : "Remote",
                 "title" : "OpenSearch Contributor",
                 "bullets" : [
-                    "Selected as member of 2023 OpenSearch Contributor Initiative (\\textless 4\\% acceptance rate)",
+                    "Selected as member of 2023 OpenSearch Contributor Initiative",
                     "Contributed to the \\href{https://github.com/opensearch-project/ml-commons/}{\\underline{opensearch-project/ml-commons}} GitHub repository by developing machine learning algorithms, unit tests, and plugins in Java",
                     "Collaborated with undergraduate students, graduate students, and industry professionals across the globe under the mentorship of Machine Learning Engineers at Amazon"
                 ]

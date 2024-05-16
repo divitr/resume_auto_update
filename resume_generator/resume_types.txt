@@ -1,7 +1,0 @@
-master
-physics
-cs
-tutoring
-
-test
-ml

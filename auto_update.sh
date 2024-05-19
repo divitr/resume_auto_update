@@ -1,6 +1,7 @@
 #!/bin/bash
 
-DIR="."
+DIR=$(dirname "$(realpath "$0")")
+cd "$DIR"
 TEX_FILES=()
 
 proccess_dir() {

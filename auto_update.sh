@@ -52,6 +52,6 @@ check_recompile() {
     	done
 }
 
-threshold_time=10
+threshold_time=6
 
 check_recompile "$threshold_time"

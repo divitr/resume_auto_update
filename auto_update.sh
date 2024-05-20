@@ -4,6 +4,8 @@ DIR=$(dirname "$(realpath "$0")")
 cd "$DIR"
 TEX_FILES=()
 
+git pull origin main
+
 proccess_dir() {
 	local dir="$1"
 

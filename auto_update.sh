@@ -1,6 +1,7 @@
 #!/bin/bash
 
 DIR=$(dirname "$(realpath "$0")")
+echo $DIR
 cd "$DIR"
 TEX_FILES=()
 
@@ -15,7 +16,7 @@ proccess_dir() {
 		elif [ -f "$item" ]; then
 			if [[ "$item" == *.tex ]]; then
                 		TEX_FILES+=("$item")
-            		fi
+            fi
 		fi
 	done
 }
@@ -35,7 +36,7 @@ recompile_resumes() {
 			cd "$dir_path"
 			pdflatex Divit_Rawal.tex >/dev/null 2>&1
 			cd ..
-		fi
+			fi
     	done
 
 	push_to_git

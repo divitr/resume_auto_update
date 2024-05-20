@@ -24,8 +24,8 @@ proccess_dir "$DIR"
 
 push_to_git() {
 	commit_msg="auto_update on $(date +'%Y-%m-%d %H:%M:%S')"
-	git commit -am "$commit_msg" >/dev/null 2>&1
-	git push origin main >/dev/null 2>&1
+	git commit -am "$commit_msg"
+	git push origin main
 }
 
 recompile_resumes() {

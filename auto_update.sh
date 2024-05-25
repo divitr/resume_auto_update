@@ -8,7 +8,6 @@ git pull origin main >/dev/null 2>&1
 
 proccess_dir() {
 	local dir="$1"
-
 	for item in "$dir"/*; do
 		if [ -d "$item" ]; then
 			proccess_dir "$item"
@@ -35,9 +34,8 @@ recompile_resumes() {
 			cd "$dir_path"
 			pdflatex Divit_Rawal.tex >/dev/null 2>&1
 			cd ..
-			fi
+		fi
     	done
-
 	push_to_git
 }
 
@@ -47,7 +45,6 @@ check_recompile() {
 
     	for item in "${TEX_FILES[@]}"; do
         	local mod_time=$(date -r "$item" +%s)
-
         	if [ "$((current_time - mod_time))" -lt "$threshold" ]; then
             		recompile_resumes
             		break

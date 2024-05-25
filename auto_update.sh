@@ -22,20 +22,22 @@ proccess_dir() {
 proccess_dir "$DIR"
 
 push_to_git() {
+	cd "$DIR"
+	git add .
 	commit_msg="auto_update on $(date +'%Y-%m-%d %H:%M:%S')"
-	git commit -am "$commit_msg" >/dev/null 2>&1
+	git commit -m "$commit_msg" >/dev/null 2>&1
 	git push origin main >/dev/null 2>&1
 }
 
 recompile_resumes() {
-    	for file in "${TEX_FILES[@]}"; do
-        	if [[ "$file" == *Divit_Rawal.tex ]]; then
+    for file in "${TEX_FILES[@]}"; do
+    	if [[ "$file" == *Divit_Rawal.tex ]]; then
 			dir_path=$(dirname "$file")
 			cd "$dir_path"
 			pdflatex Divit_Rawal.tex >/dev/null 2>&1
 			cd ..
 		fi
-    	done
+    done
 	push_to_git
 }
 

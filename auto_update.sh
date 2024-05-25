@@ -15,7 +15,7 @@ proccess_dir() {
 		elif [ -f "$item" ]; then
 			if [[ "$item" == *.tex ]]; then
                 		TEX_FILES+=("$item")
-            fi
+            		fi
 		fi
 	done
 }

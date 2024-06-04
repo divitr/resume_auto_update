@@ -377,8 +377,8 @@ LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 5.
 )
 (../components/projects/neural-navigator.tex) (../components/projects/pdrp.tex)
-(../components/projects/rese.tex) (../components/projects/watersort.tex)
-(../components/certifications/ml.tex) (../components/certifications/rl.tex)
+(../components/projects/rese.tex) (../components/certifications/ml.tex)
+(../components/certifications/rl.tex)
 (../components/certifications/game-theory.tex)
 (../components/skills/default.tex)
 
@@ -390,12 +390,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}]
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 4.08003pt, for example:
-(fancyhdr)                \setlength{\footskip}{4.08003pt}.
-
-[2] (./Divit_Rawal.aux)
+(./Divit_Rawal.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -409,13 +404,13 @@ Package rerunfilecheck Info: Checksums for `Divit_Rawal.out':
 (rerunfilecheck)             After:  3D665214DB001618012EBD35D54541B7;450.
  ) 
 Here is how much of TeX's memory you used:
- 11967 strings out of 476025
- 190044 string characters out of 5790018
- 1885388 words of memory out of 5000000
- 32224 multiletter control sequences out of 15000+600000
+ 11961 strings out of 476025
+ 189873 string characters out of 5790018
+ 1883388 words of memory out of 5000000
+ 32222 multiletter control sequences out of 15000+600000
  518195 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,11n,79p,352b,452s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 80i,11n,79p,352b,451s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/fontawesome/FontAwesom
 e.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10
 .pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
@@ -425,10 +420,10 @@ fb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 ></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></
 usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Divit_Rawal.pdf (2 pages, 123807 bytes).
+Output written on Divit_Rawal.pdf (1 page, 121223 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 52 compressed objects within 1 object stream
- 8 named destinations out of 1000 (max. 500000)
+ 71 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

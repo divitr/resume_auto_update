@@ -57,3 +57,5 @@ check_recompile() {
 threshold_time=6
 
 check_recompile "$threshold_time"
+
+git pull origin main > /dev/null 2>&1

@@ -394,14 +394,20 @@ al/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}]
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `Divit_Rawal.out' has not changed.
-(rerunfilecheck)             Checksum: 3D665214DB001618012EBD35D54541B7;450.
+
+Package rerunfilecheck Warning: File `Divit_Rawal.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Divit_Rawal.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  3D665214DB001618012EBD35D54541B7;450.
  ) 
 Here is how much of TeX's memory you used:
- 11967 strings out of 476025
- 189931 string characters out of 5790018
+ 11961 strings out of 476025
+ 189874 string characters out of 5790018
  1884388 words of memory out of 5000000
- 32228 multiletter control sequences out of 15000+600000
+ 32222 multiletter control sequences out of 15000+600000
  518195 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,11n,79p,350b,451s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -414,10 +420,10 @@ fb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 ></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></
 usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Divit_Rawal.pdf (1 page, 125087 bytes).
+Output written on Divit_Rawal.pdf (1 page, 124797 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
+ 71 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
  7 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

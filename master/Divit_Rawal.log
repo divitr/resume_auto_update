@@ -403,14 +403,14 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `Divit_Rawal.out' has not changed.
-(rerunfilecheck)             Checksum: 3D665214DB001618012EBD35D54541B7;450.
- ) 
-Here is how much of TeX's memory you used:
- 11993 strings out of 476025
- 190757 string characters out of 5790018
- 1885388 words of memory out of 5000000
- 32238 multiletter control sequences ou          After:  3D665214DB001618012EBD35D54541B7;450.
+
+Package rerunfilecheck Warning: File `Divit_Rawal.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Divit_Rawal.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  3D665214DB001618012EBD35D54541B7;450.
  ) 
 Here is how much of TeX's memory you used:
  11987 strings out of 476025

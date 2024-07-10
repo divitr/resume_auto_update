@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.3)  9 JUL 2024 22:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.3)  9 JUL 2024 22:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -403,13 +403,13 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `Divit_Rawal.out' has not changed.
-(rerunfilecheck)             Checksum: 3D665214DB001618012EBD35D54541B7;450.
- ) 
-Here is how much of TeX's memory you used:
- 11998 strings out of 476025
- 190955 string characters out of 5790018
- 1885388 words of memory out of 5000000
+
+Package rerunfilecheck Warning: File `Divit_Rawal.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Divit_Rawal.out':
+(rerunfilecheck)             Before: D41D8CD9000000
  32240 multiletter control sequences out of 15000+600000
  518195 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191

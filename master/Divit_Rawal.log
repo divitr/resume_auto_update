@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.3)  27 AUG 2024 18:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.3)  7 OCT 2024 16:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -367,11 +367,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 7.
 )
+(../components/experience/deweese.tex)
 (../components/experience/experienceflow.tex)
 (../components/experience/kairos.tex) (../components/experience/amazon.tex)
 (../components/experience/uci.tex) (../components/experience/simplemath.tex)
 (../components/projects/antichess.tex)
-(../components/projects/neural-navigator.tex) (../components/projects/pdrp.tex
+(../components/projects/neural-navigator.tex
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 4.08003pt, for example:
@@ -381,9 +382,9 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}])
-(../components/projects/hope-proj.tex) (../components/projects/rese.tex)
-(../components/projects/watersort.tex) (../components/certifications/ml.tex)
-(../components/certifications/rl.tex)
+(../components/projects/pdrp.tex) (../components/projects/hope-proj.tex)
+(../components/projects/rese.tex) (../components/projects/watersort.tex)
+(../components/certifications/ml.tex) (../components/certifications/rl.tex)
 (../components/certifications/game-theory.tex)
 (../components/skills/low_level.tex)
 
@@ -399,13 +400,13 @@ Package rerunfilecheck Info: File `Divit_Rawal.out' has not changed.
 (rerunfilecheck)             Checksum: 3D665214DB001618012EBD35D54541B7;450.
  ) 
 Here is how much of TeX's memory you used:
- 11979 strings out of 476025
- 190516 string characters out of 5790018
- 1883388 words of memory out of 5000000
- 32224 multiletter control sequences out of 15000+600000
+ 11984 strings out of 476025
+ 190679 string characters out of 5790018
+ 1881388 words of memory out of 5000000
+ 32226 multiletter control sequences out of 15000+600000
  518195 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,11n,79p,373b,720s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 80i,11n,79p,373b,719s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/fontawesome/FontAwesom
 e.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10
 .pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
@@ -414,7 +415,7 @@ pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
 b></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 ></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><
 /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Divit_Rawal.pdf (2 pages, 121270 bytes).
+Output written on Divit_Rawal.pdf (2 pages, 121724 bytes).
 PDF statistics:
  86 PDF objects out of 1000 (max. 8388607)
  65 compressed objects within 1 object stream
